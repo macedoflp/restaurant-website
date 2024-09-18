@@ -93,6 +93,21 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
+    transition: all 0.5s ease;
+  }
+
+  .hero-content__order-button:hover{
+    background-color: #b1454a;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(156, 53, 53) 0px 7px 29px 0px;
+  }
+
+  .hero-content__order-button:active{
+    background-color: #b1454a;
+    color: hsl(0, 0%, 100%);
+    box-shadow:  rgb(156, 53, 53) 0px 7px 29px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
   }
   
   .hero-content__play-button {

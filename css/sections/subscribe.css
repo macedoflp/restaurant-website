@@ -82,4 +82,19 @@
     outline: none;
   
     cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .subscription__form button:hover{
+    color: black;
+    background-color: #fff;
+    box-shadow: rgb(211, 211, 211) 0px 7px 29px 0px;
+  }
+
+  .subscription__form button:active{
+    color: black;
+    background-color: #fff;
+    box-shadow: rgb(211, 211, 211) 0px 7px 29px 0px;
+    transform: translateY(2px);
+    transition: 100ms;
   }

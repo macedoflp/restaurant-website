@@ -66,6 +66,17 @@
     line-height: 23px;
   
     cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .about-us__button:hover{
+    box-shadow: rgb(31, 29, 29) 0px 7px 29px 0px;
+  }
+
+  .about-us__button:active{
+    box-shadow:  rgb(31, 29, 29) 0px 7px 29px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
   }
   
   .about-us__button img {
